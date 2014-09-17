@@ -37,7 +37,23 @@
     top: 100px;
 }
 
+.nav li {
+  display: inline;
+}
 
+.navbar-inner {
+  position: absolute;
+  z-index: 995;
+  background-image: none;
+  filter: none;
+  border: none;
+  box-shadow: none;
+  position: relative;
+  border-radius: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  background: transparent;
+}
 
 
 
