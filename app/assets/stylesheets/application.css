@@ -37,23 +37,19 @@
     top: 100px;
 }
 
-.nav li {
+.overlay {
+  position: fixed;
+  font-size: 34px;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 30px;
+  z-index: 999;
+  text-align: right;
+  padding: 30px;
+}
+
+li {
   display: inline;
+  padding: 15px;
 }
-
-.navbar-inner {
-  position: absolute;
-  z-index: 995;
-  background-image: none;
-  filter: none;
-  border: none;
-  box-shadow: none;
-  position: relative;
-  border-radius: 0;
-  padding: 0;
-  background-color: rgba(255, 255, 255, 0.7);
-  background: transparent;
-}
-
-
-
